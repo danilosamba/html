@@ -14,3 +14,8 @@ if (n1 == '' || n2 == ''){
 //alert(`O texto digitado é ${n1}`)
 }
 
+function limpar(){
+    document.getElementById('campo1').value = "";
+    document.getElementById('campo2').value = "";
+    document.getElementById('resultado').innerHTML ="O Total da soma é"
+}
