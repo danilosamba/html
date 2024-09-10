@@ -8,7 +8,7 @@ if (n1 == '' || n2 == ''){
 } else{
     let resultado = document.getElementById('resultado');
     let total = parseInt(n1) + parseInt(n2);
-    resultado.innerHTML = `O total da soma é ${total}`
+    resultado.innerHTML = `O Total da soma é ${total}`
     console.log(`Número n1 ${n1} número n2 ${n2} total ${total}`)
 }
 //alert(`O texto digitado é ${n1}`)
